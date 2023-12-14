@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.div1,
+.div4 {
+  height: 400px;
+  width: 400px;
+  background-color: lightslategray;
+}
+
+.div3,
+.div2 {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  height: 900px;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+.div-first {
+  height: 600px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.div-sec {
+  height: 60vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}

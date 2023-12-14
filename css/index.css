@@ -1,0 +1,44 @@
+.parent-div {
+  width: 500px;
+  height: 500px;
+  color: #fff;
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 15px;
+}
+.child {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(to right, #93edc7, #1cd8d2);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+  place-items: center;
+  font-size: 32px;
+  color: #003180;
+}
+
+.parent-div {
+  position: relative;
+  left: 300px;
+}
+.child {
+  position: absolute;
+}
+.child-2 {
+  top: 0;
+  right: 0;
+}
+.child-3 {
+  bottom: 0;
+  right: 0;
+}
+.child-4 {
+  bottom: 0;
+  left: 0;
+}
+
+.child-5 {
+  /* transform: translate(-50%, -50%); */
+  top: 200px;
+  left: 200px;
+}

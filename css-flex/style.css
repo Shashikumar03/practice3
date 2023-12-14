@@ -1,0 +1,23 @@
+.flex-container {
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgba(51, 51, 51) 0px 0px 0px 3px;
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  color: #fff;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  /* aspect-ratio: 1; */
+  background-image: linear-gradient(to right top, #004d7a, #00bf72, #a8eb12);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgba(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

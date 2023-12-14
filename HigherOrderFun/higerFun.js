@@ -52,19 +52,19 @@ const correct = users
   .map((X) => {
     return X.firstName;
   });
-console.log(correct);
+// console.log(correct);
 const a = users.reduce((acc, curr) => {
   if (curr.age < 30) {
     acc.push(curr.firstName);
   }
   return acc;
 }, []);
-console.log(a);
+// console.log(a);
 
 const sortedAge = users.sort((a, b) => {
   return a.age > b.age ? 1 : -1;
 });
-console.log(sortedAge);
+// console.log(sortedAge);
 
 // const ans = users.reduce((acc, curr) => {
 //   if (acc[curr.age]) {
@@ -135,21 +135,21 @@ console.log(sortedAge);
 //   ]
 // }
 // */
-// var cars = [
-//     { make: "audi", model: "r8", year: "2012" },
-//     { make: "audi", model: "rs5", year: "2013" },
-//     { make: "ford", model: "mustang", year: "2012" },
-//     { make: "ford", model: "fusion", year: "2015" },
-//     { make: "kia", model: "optima", year: "2012" },
-//   ],
-//   result = cars.reduce(function (r, a) {
-//     if (r[a.make]) {
-//       r[a.make] = r[a.make];
-//     } else {
-//       r[a.make] = [];
-//     }
-//     r[a.make].push(a);
-//     return r;
-//   }, {});
+var cars = [
+    { make: "audi", model: "r8", year: "2012" },
+    { make: "audi", model: "rs5", year: "2013" },
+    { make: "ford", model: "mustang", year: "2012" },
+    { make: "ford", model: "fusion", year: "2015" },
+    { make: "kia", model: "optima", year: "2012" },
+  ],
+  result = cars.reduce(function (r, a) {
+    if (r[a.make]) {
+      r[a.make] = r[a.make];
+    } else {
+      r[a.make] = [];
+    }
+    r[a.make].push(a);
+    return r;
+  }, {});
 
-// console.log(result);
+console.log(result);

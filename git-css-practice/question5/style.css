@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 90vh;
+  width: 90vw;
+}
+.div {
+  height: 100px;
+  width: 100px;
+  color: white;
+  background-color: black;
+  border: 2px solid red;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.div2 {
+  margin-top: 100px;
+}
+
+.div3 {
+  margin-top: 200px;
+}

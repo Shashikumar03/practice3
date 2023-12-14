@@ -1,0 +1,9 @@
+.container .div2 ol li div p {
+  background-color: red;
+}
+main + p {
+  background-color: green;
+}
+div ~ p {
+  background-color: gray;
+}

@@ -1,0 +1,21 @@
+div {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: black;
+  border: 2px solid pink;
+}
+.div1 {
+  display: inline-BLOCK;
+  position: absolute;
+  left: 100%;
+}
+
+.div2 {
+  display: inline-BLOCK;
+  position: absolute;
+  left: 90%;
+}
+.div3 {
+  display: inline-BLOCK;
+}

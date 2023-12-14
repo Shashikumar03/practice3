@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cricbuzz - Cricket Scorecard</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      section {
+        margin: 20px;
+      }
+
+      .scorecard {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      .team {
+        font-weight: bold;
+      }
+
+      .score-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      .score-table th,
+      .score-table td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .score-table th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Cricbuzz - Cricket Scorecard</h1>
+    </header>
+
+    <section>
+      <div class="scorecard">
+        <h2>Match: Team A vs Team B</h2>
+
+        <div class="teams">
+          <div class="team">Team A</div>
+          <div class="team">Team B</div>
+        </div>
+
+        <table class="score-table">
+          <tr>
+            <th>Player</th>
+            <th>Runs</th>
+            <th>Balls</th>
+            <th>4s</th>
+            <th>6s</th>
+          </tr>
+          <tr>
+            <td>Player 1</td>
+            <td>50</td>
+            <td>30</td>
+            <td>8</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Player 2</td>
+            <td>30</td>
+            <td>25</td>
+            <td>4</td>
+            <td>0</td>
+          </tr>
+          <!-- Add more player rows as needed -->
+        </table>
+      </div>
+    </section>
+  </body>
+</html>

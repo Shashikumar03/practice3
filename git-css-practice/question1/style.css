@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.item {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border: 2px solid red;
+  color: white;
+}
+
+.container {
+  border: 2px solid red;
+  display: flex;
+  gap: 2px;
+}
+.div1 {
+  margin-right:auto;
+}
+.div2 {
+  align-self: flex-end;
+}
